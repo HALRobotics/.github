@@ -66,7 +66,7 @@ labels:
   - name: "help wanted"
     color: '#a1db25'
     description: "Help needed to solve a user-specific problem. :pray:"
-  - name: "info needed"
+  - name: info-needed
     color: '#fa57e4'
     description: "Insufficient information provided to give a meaningful answer. Ensure all possible information is provided."
     #new_name: ""
@@ -76,7 +76,7 @@ labels:
   - name: wontfix
     color: '#ffffff'
     description: "This will not be worked on."
-  - name: "external fix"
+  - name: external-fix
     color: '#0ff7e0'
     description: "Issue has been fixed in the relevant codebase but that still needs to be propagated before this can be closed."
   #- name: good for newcomers
