@@ -59,20 +59,19 @@ labels:
     description: "This issue or pull request already exists."
   - name: enhancement
     color: '#03b5fc'
-    description: "New feature or request. :construction:"
+    description: "New feature or request."
   - name: feature
     color: '#fcba03'
     description: "New functionality that requires substantial work, potentially to underlying libraries."
   - name: "help wanted"
     color: '#a1db25'
-    description: "Help needed to solve a user-specific problem. :pray:"
+    description: "Help needed to solve a user-specific problem."
   - name: info-needed
     color: '#fa57e4'
     description: "Insufficient information provided to give a meaningful answer. Ensure all possible information is provided."
-    #new_name: ""
   - name: question
     color: '#6ad834'
-    description: "Request for further information. :grey_question:"
+    description: "Request for further information."
   - name: wontfix
     color: '#ffffff'
     description: "This will not be worked on."
