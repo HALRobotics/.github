@@ -66,10 +66,10 @@ labels:
   - name: "help wanted"
     color: '#a1db25'
     description: "Help needed to solve a user-specific problem. :pray:"
-  - name: invalid
+  - name: info needed
     color: '#fa57e4'
     description: "Insufficient information provided to give a meaningful answer. Ensure all possible information is provided."
-    new_name: "info needed"
+    #new_name: ""
   - name: question
     color: '#6ad834'
     description: "Request for further information. :grey_question:"
