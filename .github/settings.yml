@@ -44,7 +44,7 @@ repository:
 
   # Either `true` to allow rebase-merging pull requests, or `false` to prevent
   # rebase-merging.
-  allow_rebase_merge: true 
+  allow_rebase_merge: true
 
 # Labels: define labels for Issues and Pull Requests
 labels:
@@ -52,27 +52,27 @@ labels:
     color: '#d73a4a'
     description: "An issue with the system 🐛."
   - name: documentation
-    color: '#0075ca'
+    color: '#bbed90'
     description: "Improvements or addition to documentation."
   - name: duplicate
     color: '#cfd3d7'
     description: "This issue or pull request already exists."
   - name: enhancement
-    color: '#a2eeef'
+    color: '#03b5fc'
     description: "New feature or request."
   - name: feature
     # If including a `#`, make sure to wrap it with quotes!
-    color: '#336699'
+    color: '#fcba03'
     description: "New functionality that requires substantial work, potentially to underlying libraries."
   - name: "help wanted"
-    color: '#008672'
+    color: '#a1db25'
     description: Extra attention is needed.
   - name: "info needed"
     color: '#e4e669'
     description: Insufficient information provided to give a meaningful answer. Ensure all possible information is provided.
     oldname: invalid
   - name: question
-    color: '#d876e3'
+    color: '#6ad834'
     description: "Request for further information."
   - name: wontfix
     color: '#ffffff'
