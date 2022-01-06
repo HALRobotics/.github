@@ -23,7 +23,7 @@ repository:
 
   # Either `true` to enable projects for this repository, or `false` to disable them.
   # If projects are disabled for the organization, passing `true` will cause an API error.
-  has_projects: false
+  has_projects: true
 
   # Either `true` to enable the wiki for this repository, `false` to disable it.
   has_wiki: true
@@ -50,7 +50,7 @@ repository:
 labels:
   - name: bug
     color: '#d73a4a'
-    description: "An issue with the system 🐛."
+    description: "An issue with the system."
   - name: documentation
     color: '#bbed90'
     description: "Improvements or addition to documentation."

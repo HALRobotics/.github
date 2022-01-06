@@ -1,0 +1,59 @@
+name: Bug Report
+description: File a bug report here
+title: ""
+labels: ["bug"]
+#assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this bug. 
+        Please fill out the following as completely as possible to give us the best chance of resolving the issue.
+
+  - type: checkboxes
+    id: new-bug
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues
+        required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Give us a brief description of what happened and what should have happened
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the error.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Any (potentially) related issues.
+      placeholder: |
+        - [ ] #1 Some other issue
+        - [ ] #324 Another related issue
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any additional information such as logs, screenshots, files, scenarios in which the bug occurs so that it facilitates resolving the issue.

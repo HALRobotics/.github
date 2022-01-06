@@ -1,0 +1,11 @@
+name: Other
+description: Any other item - with a freeform input.
+title: ""
+body: 
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: All the information required.
+    validations:
+      required: true

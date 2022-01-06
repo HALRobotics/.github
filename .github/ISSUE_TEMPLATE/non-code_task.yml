@@ -1,0 +1,36 @@
+name: Non-Code Task
+description: Outline a piece of non-code work that needs to be undertaken e.g. report writing.
+labels: ["non-code"]
+title: ""
+body: 
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give us a brief description of the work. Ideally so that anyone can grab it and have a basic understanding of what needs to be done but at the very least enough so that you can come back to it in a month and still know what needs to be done.
+      placeholder: |
+        e.g. 
+        We need to deliver ... for [project/client/core/other]. This will require ...
+        The expected outcome is ...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: to-do-list
+    attributes:
+      label: To Do List
+      description: Atomic tasks which need to be undertaken to complete this.
+      placeholder: |
+        - [ ] Create outline
+        - [ ] Desktop study
+        - [ ] Complete state of the art section
+        - [ ] Conclusion
+        - [ ] Intro
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Additional information like proposed solutions, links, screenshots, etc.

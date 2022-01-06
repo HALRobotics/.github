@@ -1,0 +1,26 @@
+name: Enhancement Request
+description: Request a new enhancement (nice to have but not critical)
+labels: ["enhancement"]
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure this enhancement request hasn't been already submitted by someone by looking through other open/closed issues
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give us a brief description of the feature or enhancement you would like
+      placeholder: |
+        e.g. It is time consuming to constantly / It is frustrating that / ... 
+        Therefore it would be useful if ...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Give us some additional information on the enhancement request like proposed solutions, links, screenshots, etc.
