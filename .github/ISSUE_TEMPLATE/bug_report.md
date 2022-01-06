@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 ### Prerequisites
 
 * [ ] Put an X between the brackets on this line if you have done all of the following:
