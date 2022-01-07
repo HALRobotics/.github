@@ -17,6 +17,11 @@ on:
         required: false
         type: string
         default: 'HALRobotics'
+    secrets:
+      appId:
+        required: true
+      key:
+        required: true
 
 jobs:
   track_issue:
@@ -26,8 +31,8 @@ jobs:
         id: generate_token
         uses: tibdex/github-app-token@v1.5.0
         with:
-          app_id: ${{ secrets.PROJECTS_WORKFLOW_ID }}
-          private_key: ${{ secrets.PROJECTS_WORKFLOW_KEY }}
+          app_id: ${{ secrets.appId }}
+          private_key: ${{ secrets.key }}
 
       - name: Get project data
         env:
