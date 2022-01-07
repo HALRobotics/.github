@@ -2,32 +2,37 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
 
 ### Prerequisites
 
-* [ ] Put an X between the brackets on this line if you have done all of the following:
-    * Reproduced the problem in a minimal file that you can share if needed.
-    * Checked that your issue isn't already filed: https://github.com/HALRobotics/Beta/issues?utf8=%E2%9C%93&q=is%3Aissue
+Put an X between the brackets on this line if you have done all of the following:
+ - [ ] Reproduced the problem in a minimal file that you can share if needed.
+ - [ ] Checked that your issue isn't already filed in open and closed issues.
+ - [ ] Ensured that you're running the latest version of all internal libraries and extensions.
 
 ### Description
 
-[Description of the issue]
+_Give us a brief description of what happened and what should have happened._
 
 ### Steps to Reproduce
 
-1. [First Step]
-2. [Second Step]
-3. [and so on...]
-
-**Expected behavior:** [What you expect to happen]
-
-**Actual behavior:** [What actually happens]
+1. [Go to '...']
+2. [Click on '...']
+3. [Scroll down to '...']
+4. [See error]
 
 **Reproduces how often:** [What percentage of the time does it reproduce?]
+
+### Related Issues
+
+_Any (potentially) related issues._
+
+- [ ] #1 Some other issue
+- [ ] #324 Another related issue
 
 ### Versions
 

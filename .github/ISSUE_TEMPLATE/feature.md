@@ -1,32 +1,29 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Feature
+about: Outline a new feature (significant development commitment)
 title: ''
-labels: ''
+labels: 'feature'
 assignees: ''
 
 ---
 
+**Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues.**
+
 ### Description
 
-[Description of the issue]
+_Give us a brief description of the feature. Ideally so that anyone can grab it and have a basic understanding of what needs to be done but at the very least enough so that you can come back to it in a month and still know what needs to be done._
 
-### Steps to Reproduce
+e.g. 
+We need to deliver ... for [project/client/core/other]. This will require ...
+The expected outcome is ...
 
-1. [First Step]
-2. [Second Step]
-3. [and so on...]
+### Dependencies
 
-**Expected behavior:** [What you expect to happen]
+_Items which need to be undertaken to complete this._
 
-**Actual behavior:** [What actually happens]
-
-**Reproduces how often:** [What percentage of the time does it reproduce?]
-
-### Versions
-
-You can get the exact version of the Framework and all installed extensions in the HAL -> About menu or via the installer. Please also include the OS and what version of the OS you're running.
+- [ ] #1 Some other issue
+- [ ] #324 Another related issue
 
 ### Additional Information
 
-Any additional information, configuration, files or data that might be necessary to reproduce the issue.
+_Additional information on the feature request like proposed solutions, links, screenshots, etc._
