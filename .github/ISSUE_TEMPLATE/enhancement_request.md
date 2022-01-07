@@ -1,5 +1,5 @@
 ---
-name: Feature
+name: Enhancement Request
 about: Outline a new enhancement (nice to have but not critical)
 title: ''
 labels: 'enhancement'
