@@ -83,6 +83,7 @@ jobs:
           echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
       - name: Set fields
+        if: ${{ env.TODO_OPTION_ID != '' }}
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: |
