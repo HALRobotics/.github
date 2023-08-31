@@ -1,7 +1,7 @@
 name: Non-Code Task
 description: Outline a piece of non-code work that needs to be undertaken e.g. report writing.
 labels: ["non-code"]
-title: ""
+title: "[NO-CODE] <title>"
 body: 
   - type: textarea
     id: description

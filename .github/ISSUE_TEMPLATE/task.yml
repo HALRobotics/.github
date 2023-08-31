@@ -1,7 +1,7 @@
 name: Task
 description: Outline a piece of work that needs to be undertaken.
 labels: ["task"]
-title: ""
+title: "[TASK] <title>"
 body: 
   - type: textarea
     id: description

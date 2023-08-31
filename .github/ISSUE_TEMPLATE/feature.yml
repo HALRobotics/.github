@@ -1,7 +1,7 @@
 name: Feature
 description: Outline a new feature (significant development commitment)
 labels: ["feature"]
-title: ""
+title: "[FEATURE] <title>"
 body:
   - type: markdown
     attributes:

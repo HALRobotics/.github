@@ -1,6 +1,6 @@
 name: Other
 description: Any other item - with a freeform input.
-title: ""
+title: "[OTHER] <title>"
 body: 
   - type: textarea
     id: description

@@ -1,7 +1,7 @@
 name: Modelling
 description: Outline a piece of 3d modelling or simulation work that needs to be undertaken.
 labels: ["modelling"]
-title: ""
+title: "[MODEL] <title>"
 body: 
   - type: textarea
     id: description
